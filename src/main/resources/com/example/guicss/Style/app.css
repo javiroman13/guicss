@@ -1,0 +1,104 @@
+#mainPanel{
+    -fx-background-color: red;
+    -fx-spacing: 0px;
+    -fx-alignment: center;
+
+}
+
+
+#divider {
+    -fx-pref-width: 400;
+    -fx-pref-height: 20;
+    -fx-background-color: #DEDEDE;
+    -fx-border-width: 0;
+
+}
+#header {
+    -fx-pref-width: 400;
+    -fx-pref-height: 100;
+    -fx-background-color:#3E4756;
+    -fx-border-width: 0;
+}
+
+#main {
+    -fx-pref-width: 400;
+    -fx-pref-height: 480;
+    -fx-background-color:#3E4756;
+    -fx-border-width: 0;
+}
+
+.button{
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-background-color: #3E4756;
+    -fx-border-width: 0;
+}
+#btnsetting{
+    -fx-background-image: url(../imagen/gear-50.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#btnuser{
+    -fx-background-image: url(../imagen/user-50.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#btntrophy{
+    -fx-background-image: url(../imagen/trophy-50.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#btnpower{
+    -fx-background-image: url(../imagen/shutdown-50.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#touchpanel{
+    -fx-pref-width:400;
+    -fx-pref-height: 120;
+    -fx-background-color: #3E4756;
+}
+
+#lefttouchpanel{
+    -fx-pref-width: 200;
+
+    -fx-padding: 10;
+    -fx-alignment: center-left;
+}
+
+#righttouchpanel{
+    -fx-pref-width: 200;
+
+    -fx-padding: 10;
+    -fx-alignment: center-left;
+}
+
+#lblTouchTitle{
+    -fx-font-family: "Roboto";
+    -fx-font-weight: bold;
+    -fx-text-fill: #DEDEDE;
+    -fx-font-size: 16;
+}
+
+#txtTouchText{
+    -fx-font-family: "roboto";
+    -fx-font-weight: 600;
+    -fx-fill: #DEDEDE;
+    -fx-font-size: 12;
+}
+
+#btnToggle{
+    -fx-background-image: url(../imagen/toggle-50.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 70;
+    -fx-pref-height: 30;
+    -fx-background-color: #3E4756;
+}
+#lblToggle{
+    -fx-font-family: "roboto";
+    -fx-font-weight: bold;
+    -fx-text-fill: #DEDEDE;
+    -fx-font-size: 16;
+}

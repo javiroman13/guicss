@@ -1,16 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.TextFlow?>
+<?import javafx.scene.text.Text?>
+<VBox fx:id="mainPanel" styleClass="vbox-class"
+      xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.example.guicss.HelloController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-  </padding>
+    <HBox styleClass="vbox-class" fx:id="header">
+        <Button styleClass="headerButton" fx:id="btnsetting"/>
+        <Button styleClass="headerButton" fx:id="btnuser"/>
+        <Button styleClass="headerButton" fx:id="btntrophy"/>
+        <Button styleClass="headerButton" fx:id="btnpower"/>
+    </HBox>
+    <Pane styleClass="pane-class" fx:id="divider"></Pane>
+    <VBox styleClass="vbOX-CLAS" fx:id="main">
+        <HBox styleClass="hbox-class" fx:id="touchpanel">
+            <VBox styleClass="vbox-class" fx:id="lefttouchpanel" >
+                <Label styleClass="label-class" fx:id="lblTouchTitle">
+                    TOUCH ENABLED
+                </Label>
+                <TextFlow fx:id="tfTouchText">
+                    <Text fx:id="txtTouchText">
+                        Called 3D touch, the new technology can sense pressure
+                    </Text>
+                </TextFlow>
+            </VBox>
 
-  <Label fx:id="welcomeText"/>
-  <Button text="Hello!" onAction="#onHelloButtonClick"/>
+            <HBox styleClass="h-box" fx:id="righttouchpanel" >
+                <Button fx:id="btnToggle" />
+                <Label fx:id="lblToggle" text="on"/>
+            </HBox>
+        </HBox>
+    </VBox>
+
+
 </VBox>
