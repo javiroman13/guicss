@@ -102,3 +102,167 @@
     -fx-text-fill: #DEDEDE;
     -fx-font-size: 16;
 }
+
+#panelLine{
+    -fx-alignment: center;
+
+}
+
+
+#TouchPanel2{
+    -fx-pref-width:400;
+    -fx-pref-height: 120;
+    -fx-background-color: #3E4756;
+}
+
+#LeftTouchPanel{
+    -fx-pref-width: 200;
+
+    -fx-padding: 10;
+    -fx-alignment: center-left;
+}
+
+#LblTouchTitle2{
+    -fx-font-family: "Roboto";
+    -fx-font-weight: bold;
+    -fx-text-fill: #DEDEDE;
+    -fx-font-size: 16;
+}
+
+#TxtTouchText2{
+    -fx-font-family: "roboto";
+    -fx-font-weight: 600;
+    -fx-fill: #DEDEDE;
+    -fx-font-size: 12;
+}
+#RightTouchPanel{
+    -fx-pref-width: 200;
+
+    -fx-padding: 10;
+    -fx-alignment: center-left;
+}
+#btnToggle2{
+    -fx-background-image: url(../imagen/toggle-50.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 70;
+    -fx-pref-height: 30;
+    -fx-background-color: #3E4756;
+}
+#lblToggle2{
+    -fx-font-family: "roboto";
+    -fx-font-weight: bold;
+    -fx-text-fill: #DEDEDE;
+    -fx-font-size: 16;
+}
+
+#touchP{
+    -fx-pref-width:400;
+    -fx-pref-height: 120;
+    -fx-background-color: #3E4756;
+    -fx-border-width: 0;
+}
+
+#Title{
+    -fx-font-family: "Roboto";
+    -fx-font-weight: bold;
+    -fx-text-fill: #DEDEDE;
+    -fx-font-size: 16;
+
+}
+
+#TouchPanel3{
+    -fx-pref-width: 200;
+    -fx-padding: 10;
+
+}
+
+#scrash{
+    -fx-alignment: center;
+    -fx-pref-width: 300;
+    -fx-pref-height: 120;
+    -fx-arrows-visible: true;
+}
+
+#barra{
+    -fx-highlight-fill:  #DBF27D;
+    -fx-background-color:  yellow;
+
+}
+
+#Pderecho{
+    -fx-pref-width:400;
+    -fx-pref-height: 100;
+    -fx-background-color: #3E4756;
+}
+
+#lblLabel{
+    -fx-font-family: "roboto";
+    -fx-font-weight: bold;
+    -fx-text-fill: #DEDEDE;
+    -fx-font-size: 16;
+}
+
+#Pizquierdo{
+    -fx-pref-width: 200;
+    -fx-padding: 10;
+    -fx-alignment: center-left;
+}
+
+#Pderecho{
+    -fx-pref-width: 200;
+    -fx-padding: 10;
+    -fx-alignment: center-right;
+}
+#lblLabel3{
+    -fx-font-family: "roboto";
+    -fx-font-weight: bold;
+    -fx-text-fill: #DEDEDE;
+    -fx-font-size: 16;
+}
+
+#panelLine{
+    -fx-alignment: center;
+}
+
+#linea{
+   -fx-stroke: rgb(159,157, 157);
+    -fx-stroke-width: 2;
+}
+
+#linea2{
+    -fx-stroke: rgb(159,157, 157);
+    -fx-stroke-width: 2;
+}
+
+#LeftButton{
+    -fx-pref-width: 200;
+    -fx-padding: 10;
+    -fx-alignment: center-right;
+}
+
+#RightButton{
+    -fx-pref-width: 200;
+    -fx-padding: 10;
+    -fx-alignment: center-left;
+
+}
+#botoncancel{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-pref-height: 40;
+}
+
+#botonsave{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-pref-height: 40;
+}
+
+#btnbarra{
+    -fx-background-image: url(../imagen/gauge.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 380;
+    -fx-pref-height: 200;
+}

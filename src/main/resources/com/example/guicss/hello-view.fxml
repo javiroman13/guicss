@@ -8,6 +8,8 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.text.TextFlow?>
 <?import javafx.scene.text.Text?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.control.ScrollBar?>
 <VBox fx:id="mainPanel" styleClass="vbox-class"
       xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.example.guicss.HelloController">
@@ -18,6 +20,7 @@
         <Button styleClass="headerButton" fx:id="btnpower"/>
     </HBox>
     <Pane styleClass="pane-class" fx:id="divider"></Pane>
+
     <VBox styleClass="vbOX-CLAS" fx:id="main">
         <HBox styleClass="hbox-class" fx:id="touchpanel">
             <VBox styleClass="vbox-class" fx:id="lefttouchpanel" >
@@ -36,7 +39,66 @@
                 <Label fx:id="lblToggle" text="on"/>
             </HBox>
         </HBox>
+
+
+
+        <HBox styleClass="hbox-class" fx:id="TouchPanel2">
+            <VBox styleClass="vbox-class" fx:id="LeftTouchPanel" >
+                <Label styleClass="label-class" fx:id="LblTouchTitle2">
+                    AUTO-SUBSCRIBE
+                </Label>
+                <TextFlow fx:id="TFTouchText2">
+                    <Text fx:id="TxtTouchText2">
+                        Called 3D touch, the new technology can sense pressure
+                    </Text>
+                </TextFlow>
+            </VBox>
+
+            <HBox styleClass="h-box" fx:id="RightTouchPanel" >
+                <Button fx:id="btnToggle2" />
+                <Label fx:id="lblToggle2" text="on"/>
+            </HBox>
+        </HBox>
+
+        <HBox styleClass="h-box" fx:id="panelLine" >
+            <Line fx:id="linea" endX="-275" endY="-5" startX="100" startY="-5" />
+        </HBox>
+
+
+        <VBox styleClass="h-box" fx:id="touchP" >
+            <VBox styleClass="h-box" fx:id="TouchPanel3" >
+                <Label styleClass="label-class" fx:id="Title">
+                    SCREEN-BRIGHTNESS
+                </Label>
+                <VBox styleClass="v-box" fx:id="scrash" >
+                    <Button fx:id="btnbarra" />
+                </VBox>
+
+
+                <HBox styleClass="h-box" fx:id="panelLine2" >
+                    <Line fx:id="linea2" endX="-275" endY="-5" startX="100" startY="-5" />
+                </HBox>
+            </VBox>
+        </VBox>
+
+
+        <HBox styleClass="hbox-class" fx:id="TouchButton">
+            <VBox styleClass="vbox-class" fx:id="LeftButton" >
+                <Button  fx:id="botonsave" text= "save" />
+            </VBox>
+
+            <HBox styleClass="h-box" fx:id="RightButton" >
+                <Button  fx:id="botoncancel" text="cancel"  />
+            </HBox>
+        </HBox>
+
+
+
+
     </VBox>
+
+
+
 
 
 </VBox>
